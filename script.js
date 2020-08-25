@@ -102,8 +102,6 @@ function getResults2(query) {
 }
 
 function displayResults2(forecast) {
-    console.log(forecast);
-
     function timeFunction(){
     let currentTime = new Date();
     var UTChours = currentTime.getUTCHours();
