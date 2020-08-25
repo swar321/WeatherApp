@@ -23,7 +23,6 @@ function getResults (query) {
 
 
 function displayResults(weather, list) {
-    console.log(weather);
     let city = document.querySelector('.city');
     city.innerHTML = `${weather.name}, ${weather.sys.country}`;
     
